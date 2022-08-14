@@ -1,0 +1,47 @@
+body {
+    background: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+
+
+nav {
+    height: 12.5vh;
+    width: 100vw;
+    background: linear-gradient(to bottom right,#0008, #8000803b, #8000803b, #3338);
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.homeIcon {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    top: 6.25vh;
+    transform: translateY(-50%);
+    left: 0.5rem;
+}
+
+
